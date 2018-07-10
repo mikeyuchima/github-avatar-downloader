@@ -48,5 +48,5 @@ getRepoContributors(repoOwner, repoName, function(err, result) {
 function downloadImageByURL(url, filePath) {
     request.get(url)
 
-    .pipe(fs.createWriteStream('./' + filePath + '.jpg'));
+    .pipe(fs.createWriteStream('drrpbz/' + filePath + '.jpg'));
     };
